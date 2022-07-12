@@ -1,6 +1,5 @@
 from django.http import HttpResponse 
 
-
 def home(request):
     html = "Hello word"
     return HttpResponse(html)
